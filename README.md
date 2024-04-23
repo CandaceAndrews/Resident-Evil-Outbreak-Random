@@ -1,4 +1,6 @@
-# resident-evil-outbreak-random
+# Resident Evil Outbreak - Random Level and Character 
+
+### Description
 ```
 Chooses a random level or character for Resident Evil Outbreak File 1 and File 2.
 ```
