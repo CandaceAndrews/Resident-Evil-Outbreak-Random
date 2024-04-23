@@ -1,4 +1,7 @@
 # resident-evil-outbreak-random
+```
+Chooses a random level or character for Resident Evil Outbreak File 1 and File 2.
+```
 
 ## Project setup
 ```
