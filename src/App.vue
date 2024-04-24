@@ -1,23 +1,31 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <NavbarMenu />
+    <router-view />
+  </div>
 </template>
 
 <script>
+import NavbarMenu from './components/NavbarMenu.vue';
+
 export default {
   name: 'App',
   components: {
-    
+    NavbarMenu
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+body {
+  margin-top: 75px;
+  padding: 0;
+  font-family: 'Press Start 2P', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: white;
+  background-color: black;
+  line-height: 2;
 }
 </style>
