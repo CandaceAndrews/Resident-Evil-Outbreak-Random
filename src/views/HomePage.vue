@@ -1,5 +1,4 @@
 <template>
-    <!-- Home Page -->
     <div class="home-page">
         <h1>Resident Evil Outbreak</h1>
     </div>
@@ -12,5 +11,7 @@ export default {
 </script>
 
 <style>
-
+.home-page {
+    font-size: 12px;
+}
 </style>

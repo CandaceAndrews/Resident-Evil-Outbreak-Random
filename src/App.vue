@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import NavbarMenu from './components/NavbarMenu.vue';
+import NavbarMenu from './components/NavbarMenu.vue'
 
 export default {
   name: 'App',
   components: {
-    NavbarMenu
+    NavbarMenu,
   }
 }
 </script>
