@@ -19,8 +19,7 @@ export default {
 <style>
 body {
   margin-top: 75px;
-  padding: 0;
-  font-family: 'Press Start 2P', sans-serif;
+  padding: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
