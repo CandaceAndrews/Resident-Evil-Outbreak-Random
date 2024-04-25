@@ -85,7 +85,7 @@ export default {
     display: flex;
     align-items: center;
     font-size: 40px; 
-    color: rgb(255, 135, 135);
+    color: rgb(251, 131, 131);
     display: flex;
     flex-direction: column;
     align-items: center; 
