@@ -1,6 +1,8 @@
 <template>
     <div class="home-page">
-        <h1 class="header">Resident Evil Outbreak - Randomizer</h1>
+        <div class="banner">
+            <h1 class="header">Resident Evil Outbreak - Randomizer</h1>
+        </div>
     </div>
 </template>
 
@@ -15,8 +17,15 @@ export default {
     font-size: 12px;
 }
 
+.banner {
+    background-color: rgb(47, 47, 108);
+
+}
+
 .header {
     font-size: 50px;
-    padding: 0px 30px 0px 10px;
+    color: white;
+    margin-top: 0px;
+    border-bottom: 2px solid white;
 }
 </style>

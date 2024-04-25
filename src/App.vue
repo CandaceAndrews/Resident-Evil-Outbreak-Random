@@ -1,30 +1,28 @@
 <template>
   <div id="app">
-    <NavbarMenu />
-    <router-view />
+      <HomePage />
   </div>
 </template>
 
 <script>
-import NavbarMenu from './components/NavbarMenu.vue'
+import HomePage from './views/HomePage.vue';
 
 export default {
   name: 'App',
   components: {
-    NavbarMenu,
+    HomePage,
   }
 }
 </script>
 
 <style>
 body {
-  margin-top: 75px;
-  padding: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
   background-color: black;
   line-height: 2;
+  margin: 0px;
 }
 </style>
