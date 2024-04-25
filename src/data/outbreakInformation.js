@@ -1,4 +1,4 @@
-const outbreakInformation = [
+const outbreakInformation = {
     file1Levels: [
         'Outbreak', 
         'Below Freezing Point', 
@@ -45,6 +45,6 @@ const outbreakInformation = [
         'Cindy: D',
         'Cindy: E',
     ]
-];
+};
 
 export default outbreakInformation;

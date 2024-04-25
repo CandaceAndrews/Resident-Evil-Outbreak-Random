@@ -4,9 +4,9 @@
             <h1 class="header">Resident Evil Outbreak - Randomizer</h1>
         </div>
         <div class="buttons">
-            <button @click="pickRandomName">Random File #1 Level</button>
-            <button @click="pickRandomName">Random File #2 Level</button>
-            <button @click="pickRandomName">Random Character</button>
+            <button @click="pickRandomFile1Level">Random File #1 Level</button>
+            <button @click="pickRandomFile2Level">Random File #2 Level</button>
+            <button @click="pickRandomCharacter">Random Character</button>
             <p>{{ selectedName }}</p>
         </div>
     </div>
@@ -18,9 +18,24 @@ export default {
     data() {
         return {
             outbreakInformation,
+            selectedName: '',
         };
     },
-}
+    methods: {
+        pickRandomFile1Level() {
+            const randomIndex = Math.floor(Math.random() * this.outbreakInformation.file1Levels.length);
+            this.selectedName = this.outbreakInformation.file1Levels[randomIndex];
+        },
+        pickRandomFile2Level() {
+            const randomIndex = Math.floor(Math.random() * this.outbreakInformation.file2Levels.length);
+            this.selectedName = this.outbreakInformation.file2Levels[randomIndex];
+        },
+        pickRandomCharacter() {
+            const randomIndex = Math.floor(Math.random() * this.outbreakInformation.characters.length);
+            this.selectedName = this.outbreakInformation.characters[randomIndex];
+        }
+    }
+};
 </script>
 
 <style>
