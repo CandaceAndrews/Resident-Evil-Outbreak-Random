@@ -3,12 +3,23 @@
         <div class="banner">
             <h1 class="header">Resident Evil Outbreak - Randomizer</h1>
         </div>
+        <div class="buttons">
+            <button @click="pickRandomName">Random File #1 Level</button>
+            <button @click="pickRandomName">Random File #2 Level</button>
+            <button @click="pickRandomName">Random Character</button>
+            <p>{{ selectedName }}</p>
+        </div>
     </div>
 </template>
 
 <script>
+import outbreakInformation from '@/data/outbreakInformation.js';
 export default {
-    name: 'HomePage'
+    data() {
+        return {
+            outbreakInformation,
+        };
+    },
 }
 </script>
 
