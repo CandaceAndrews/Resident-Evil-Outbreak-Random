@@ -47,7 +47,7 @@ const outbreakInformation = {
         'Al: B',
         'Billy',
         'Bone',
-        'Conrad'
+        'Conrad',
         'Danny',
         'Danny: B',
         'Dustin',
@@ -133,7 +133,7 @@ const outbreakInformation = {
         'Kathy',
         'Linda',
         'Mary',
-        'Ms. Water'
+        'Ms. Water',
     ]
 };
 
